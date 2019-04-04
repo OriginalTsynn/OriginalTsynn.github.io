@@ -62,9 +62,7 @@ body {
   em {
 	font-style: oblique;
   }
-  strong {
-	font-style: bold;
-  }
+
   img {
 	width: 100%;
   }
@@ -183,9 +181,11 @@ body {
   }
   .left {
 	float: left;
+	background: green;
   }
   .right {
 	float: right;
+	background: red;
   }
 
   .contact {
