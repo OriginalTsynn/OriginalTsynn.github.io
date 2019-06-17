@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -51,7 +51,8 @@ table {
 body {
 	background-color: #f9f9f9;
   }
-  a {
+
+a {
 	-o-transition: .5s;
 	-ms-transition: .5s;
 	-moz-transition: .5s;
@@ -59,18 +60,21 @@ body {
 	transition: .5s;
 	text-decoration: none;
   }
+
   em {
 	font-style: oblique;
   }
 
-  img {
+img {
 	width: 100%;
   }
+
   h1, h2, h3, h4, h5 {
 	font-family: proxima-nova, sans-serif;
 	font-style: normal;
   }
-  h3 {
+
+h3 {
 	text-transform: capitalize;
 	font-size: 1.875em;
 	padding: 0 0 1% 0;
@@ -78,19 +82,21 @@ body {
 	font-weight: 800;
   }
 
-  header {
+header {
 	background: linear-gradient( rgb(2, 17, 82), rgba(224, 204, 200, 0.90)), /* bottom, image */
 	url(img/laptop.jpg);
 	background-size: cover;
 	background-position: center top;
 	width: 100%;
   }
-  .intro {
+
+.intro {
 	max-width: 960px;
 	margin: 0 auto;
 	padding: 8% 0;
   }
-  .intro h1 {
+
+.intro h1 {
 	font-size: 6em;
 	text-align: center;
 	color: #fff;
@@ -99,7 +105,8 @@ body {
 	font-weight: 800;
 	line-height: 1.5em;
   }
-  .intro h2 {
+
+.intro h2 {
 	font-size: 2em;
 	text-align: center;
 	color: #fff;
@@ -108,7 +115,7 @@ body {
 	letter-spacing: 0.09em;
   }
 
-  .wrapper {
+.wrapper {
 	max-width: 960px;
 	margin: 0 auto;
 	font-family: proxima-nova, sans-serif;
@@ -116,10 +123,12 @@ body {
 	/* Chrome, Safari, Opera */
 	animation-delay: 2s;
   }
-  .about {
+
+.about {
 	padding: 4% 0;
   }
-  .about p {
+
+.about p {
 	font-family: proxima-nova, sans-serif;
 	font-style: normal;
 	font-weight: 300;
@@ -130,35 +139,42 @@ body {
 	font-size: 1.5em;
 	padding: 2% 0;
   }
-  .about p a {
+
+.about p a {
 	color: #E1CCC9;
 	border-bottom: 2px solid;
   }
 
-  .work {
+
+.work {
 	height: 300px;
 	padding: 2% 0;
   }
-  .work h3 {
+
+.work h3 {
 	padding: 4% 0;
   }
-  .text-box {
+
+.text-box {
 	float: left;
 	text-align: left;
 	width: 480px;
 	background-color: #fff;
 	height: 100%;
   }
-  .text-box-content {
+
+.text-box-content {
 	padding: 4% 8%;
   }
-  .text-box-content p {
+
+.text-box-content p {
 	line-height: 1.8;
 	color: #616569;
 	letter-spacing: .03em;
 	font-size: 1em;
   }
-  .button {
+
+.button {
 	padding: 5% 3%;
 	border: 3px solid #e0ccc8;
 	letter-spacing: 0.2em;
@@ -170,49 +186,56 @@ body {
 	text-transform: uppercase;
 	margin-top: 4%;
   }
-  .button:hover {
+
+.button:hover {
 	color: #fff;
 	background-color: #e0ccc8;
   }
-  .image-area {
+
+.image-area {
 	width: 480px;
 	height: 300px;
 	overflow: hidden;
   }
-  .left {
+
+.left {
 	float: left;
 	background: green;
   }
-  .right {
+
+.right {
 	float: right;
 	background: red;
   }
 
-  .contact {
+.contact {
 	width: 100%;
 	background-color: #011833;
 	padding: 5% 0;
 	margin-top: 5%;
 	clear: both;
   }
-  .contact-content {
+
+.contact-content {
 	max-width: 960px;
 	margin: 0 auto;
 	text-align: center;
   }
-  .contact-content h4 {
+
+.contact-content h4 {
 	font-size: 1.875em;
 	padding: 1% 0;
 	color: #fff;
 	font-weight: 600;
 	letter-spacing: 0.04em;
   }
-  .contact-content a {
+
+.contact-content a {
 	color: #E0CCC8;
 	text-decoration: none;
   }
 
-  .image-divider {
+.image-divider {
 	padding: 15% 0;
 	background: /* bottom, image */
 	url(img/workspace.jpg);
@@ -220,7 +243,7 @@ body {
 	background-position: center top;
   }
 
-  footer {
+footer {
 	background-color: rgb(1, 3, 104);
 	color: #fff;
 	padding: 2% 0;
@@ -228,7 +251,8 @@ body {
 	clear: both;
 	height: 100px;
   }
-  .footer-content {
+
+.footer-content {
 	max-width: 960px;
 	padding: 2% 0;
 	margin: 0 auto;
@@ -240,75 +264,83 @@ body {
 	letter-spacing: .03em;
 	font-size: 1em;
   }
-  .credit {
-	float: left;
-  }
-  .social {
+
+.social {
 	float: right;
   }
-  .social li {
+
+.social li {
 	display: inline;
   }
-  .social li a {
+
+.social li a {
 	color: #fff;
 	padding: 0.2em;
 	font-size: 1.8em;
 	font-weight: 600;
   }
-  .social li a:hover {
+
+.social li a:hover {
 	color: #011833;
   }
-  @media only screen and (max-width:1000px) {
-	.wrapper {
+
+@media only screen and (max-width:1000px) {
+.wrapper {
 	  padding: 0% 4%;
 	}
-	.work {
+
+.work {
 	  padding: 4% 0;
 	}
-	.image-area {
+
+.image-area {
 	  float: left;
 	  width: 100%;
 	  height: auto;
 	}
-	.text-box {
+
+.text-box {
 	  width: 100%;
 	  height: auto;
 	}
-	.social li a {
+
+.social li a {
 	  font-size: 1.4em;
 	}
-	.footer-content {
+
+.footer-content {
 	  padding: 3.5%;
 	}
   }
-  @media only screen and (max-width:800px) {
-	.intro h1 {
+
+@media only screen and (max-width:800px) {
+.intro h1 {
 	  font-size: 4em;
 	  line-height: 1.2;
 	}
-	.intro h2 {
+.intro h2 {
 	  font-size: 1.8em;
 	  padding-top: 3%;
 	}
-	.about p {
+.about p {
 	  font-size: 1em;
 	  line-height: 2;
 	}
-	footer {
+footer {
 	  height: 130px;
 	  line-height: 1.3em;
 	}
-	.footer-content {
+.footer-content {
 	  padding: 4%;
 	  font-size: 14px;
 	}
-	.social {
+.social {
 	  float: left;
 	}
-	.social li a {
+.social li a {
 	  font-size: 1.3em;
 	}
-	.contact-content {
+.contact-content {
 	  font-size: 12px;
 	  line-height: 1.5;
 	}
