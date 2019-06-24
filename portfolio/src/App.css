@@ -1,9 +1,31 @@
+header {
+    justify-items: right
+}
+
 .header-color {
     background: #000046;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to top, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to top, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: right
 
+}
 
+/* .header-color Link {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+} */
+
+.header-color a {
+        float: right;
+        color: #f2f2f2;
+        text-align: right;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 16px;
 }
 
 
@@ -11,7 +33,7 @@
     background: #000046;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to top, #000046, #1CB5E0);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to top, #000046, #1CB5E0 ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+float: right;
 
 text-align: center;
 position: fixed;
@@ -35,7 +57,7 @@ height: 100%
 }
 
 .banner-text h1 {
-    font-size: 66px;
+    font-size: 36px;
     font-weight: bold;
     color: white;
 }
@@ -48,7 +70,7 @@ margin: auto
 
 .banner-text p {
 color: white;
-font-size: 20px;
+font-size: 18px;
 padding: 1em
 }
 
@@ -60,8 +82,8 @@ margin: auto;
 }
 .social-links i {
 color: white;
-font-size: 5em;
-padding: 8px;
+font-size: 3em;
+padding: -8px 8px 16px 8px;
 }
 
 .projects-grid {

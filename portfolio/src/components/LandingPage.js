@@ -22,7 +22,6 @@ export default class landingPage extends Component {
                             </p>
 
                             <div className="social-links">
-
                                 {/* LinkedIn */}
                                 <a href="https://www.linkedin.com/in/nathan-rotach-47464bb8/" target="_blank"  rel="noopener noreferrer">
                                     <i className="fa fa-linkedin-square" aria-hidden="true" />
