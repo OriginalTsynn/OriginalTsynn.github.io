@@ -9,7 +9,7 @@ import Resume from './Resume'
 
 
 
-const Main = () => (
+const NavigationBar = () => (
     <Switch>
         <Route exact path="/" component ={LandingPage} />
         <Route path="/aboutme" component ={About} />
@@ -19,4 +19,4 @@ const Main = () => (
     </Switch>
 )
 
-export default Main
+export default NavigationBar
