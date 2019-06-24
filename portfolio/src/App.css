@@ -14,7 +14,7 @@ background: linear-gradient(to top, #000046, #1CB5E0 ); /* W3C, IE 10+/ Edge, Fi
 
 
 text-align: center;
-position: absolute;
+position: fixed;
 top: 0;
 left: 0;
 width: 100%;

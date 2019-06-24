@@ -37,6 +37,7 @@ export default class about extends Component {
                             In my free time, when not programming, I like to keep my senses sharp by passionately participating in gaming.  <br></br>
                             When not programming or gaming, I spend a lot of time working with my wonderful dogs, 2 female doberman, age 3.
                     </p>
+                        <img src="../../../doggos.png" />
 
                     </Cell>
                 </Grid>

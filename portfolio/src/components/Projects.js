@@ -5,7 +5,7 @@ export default class projects extends Component
 {
     constructor( props )
     {
-        super()
+        super(props)
         this.state= { activeTab: 0}
     }
 
@@ -79,8 +79,34 @@ export default class projects extends Component
             )
         } else if ( this.state.activeTab === 2 ) {
             return (
-                <div><h1>This is Full Stack</h1></div>
-            )
+<div className="projects-grid">
+                        <Card shadow={5} style={{
+                            width: '550px',
+                            margin: 'auto'
+                        }}>
+                            <CardTitle style={{
+                                color: "black",
+                                height: "176px",
+                                background: 'url(https://github.com/OriginalTsynn/OriginalTsynn.github.io/blob/master/Screen%20Shot%202019-06-17%20at%203.26.59%20PM.png?raw=true) center/cover'
+                            }}>
+                            Unit 2 Project:  Recipe-Rolodex
+                            </CardTitle>
+                             <CardText>
+                                This is the first group project I participated in. <br></br>
+                                Database created on MongoDB <br></br>
+                                API was created with Node.js, Express, and Mongoose <br></br>
+                                Hosted on Mongo Atlas <br></br>
+                                Deployed via Heroku<br></br>
+                                I was responsible for setting up the back end, implementing password authentication,
+                                JSON webtoken assignemnt, as well as axios calls from the front end.
+                            </CardText>
+                            <CardActions border>
+                                <Button colored href="https://github.com/OriginalTsynn/recipe-rolodex" target="Pokelite Github">Github</Button>
+                                <Button colored href="http://recipe-rolodex.surge.sh/" target="_blank">Live Demo</Button>
+                            </CardActions>
+
+                        </Card>
+                    </div>            )
         } else if ( this.state.activeTab === 3 ) {
             return (
                 <div className="projects-grid">
