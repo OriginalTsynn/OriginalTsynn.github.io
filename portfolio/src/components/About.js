@@ -13,7 +13,7 @@ export default class about extends Component {
                         src="https://media.licdn.com/dms/image/C4D03AQF8NH2hbu3V3g/profile-displayphoto-shrink_200_200/0?e=1567036800&v=beta&t=HqYRtwrTcDeSwZXbuEG9HIUXX1zrdpxn8Bt3W9ZNZGc"
                         alt="avatar"
                         style = {{height: '250px'}}
-                    />
+                        />
 
                     <p style={{
                         width: "75%",
@@ -37,7 +37,12 @@ export default class about extends Component {
                             In my free time, when not programming, I like to keep my senses sharp by passionately participating in gaming.  <br></br>
                             When not programming or gaming, I spend a lot of time working with my wonderful dogs, 2 female doberman, age 3.
                     </p>
-                        <img src="../../../doggos.png" />
+
+                    <img
+                        src="https://previews.dropbox.com/p/thumb/AAfP5xhF-WyBhkvQL7Ab3FwLdRumcAvu7WAFRz0B30OqLL-QgTYb4sqt3o99siGyC7ztrfJJwfwQSM472ctcbt5ZFgY2gu-LqnvgwP0UvvQ8TowcT4TyRmG3iPm_CCXpmidzxQFOcyOmwOB2_fwjio4x3A1p-y9QG9KsLop2xXfU7pvqC3rav_iVPnjUEd52P2S3BOynyv4noZ7aC6iwwmzq4ycm1bIas1FJ8zu39VRu_YlJXS71QYXW4gfkE654UU3xfI22YsQ2AXgR49SRD8Zuw6B2ZrbwAdopUjhYnp7DGDX5N1_586fqJaqNUsp_fafGNufBDDKlJi9ByYZcoUwZdoUzbel_v25mduFVRE79rYr-P7OPzIhX8JNhyQoUwhiuXIqASYmEzZarmCYXqi2sYAW5K34Zxcy5cvzMz6d7dqF8DsS7MZs6NyYVjgDBapdGdsOt5e9IE-W5jybs0ZZ0MGsjVi_rLJp83r6SV4_K05UItKnhV-hbWeBJqTAb3l6VX_m3rWJuSa6lAC-hwX3bvPi2WEW1mt5IL5nphPnjtreKL_aMPNhh51wIIK1mWCrNePtJi_zaR5DpHQPQ57arOUjdUHdVGjGswGyPR6_kzFux3CsqzWCKdD0_ih8iMjU/p.png?fv_content=true&size_mode=5"
+                        alt="doggos"
+                        style = {{height: '250px'}}
+                        />
 
                     </Cell>
                 </Grid>
