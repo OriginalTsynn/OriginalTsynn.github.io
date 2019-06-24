@@ -8,7 +8,7 @@ export default class landingPage extends Component {
                 <Grid className="landing-grid">
                     <Cell col={12}>
                         <img
-                            src="https://media.licdn.com/dms/image/C4D03AQF8NH2hbu3V3g/profile-displayphoto-shrink_200_200/0?e=1567036800&v=beta&t=HqYRtwrTcDeSwZXbuEG9HIUXX1zrdpxn8Bt3W9ZNZGc"
+                            src="https://imagizer.imageshack.com/v2/280x200q90/924/iR5Arh.jpg"
                             alt="avatar"
                             className="avatar-img"
                         />

@@ -10,7 +10,7 @@ export default class about extends Component {
                 <Cell col={8}>
                     <h2>Nathan Rotach</h2>
                     <img
-                        src="https://media.licdn.com/dms/image/C4D03AQF8NH2hbu3V3g/profile-displayphoto-shrink_200_200/0?e=1567036800&v=beta&t=HqYRtwrTcDeSwZXbuEG9HIUXX1zrdpxn8Bt3W9ZNZGc"
+                        src="https://imagizer.imageshack.com/v2/280x200q90/924/iR5Arh.jpg"
                         alt="avatar"
                         style = {{height: '250px'}}
                         />
@@ -39,7 +39,7 @@ export default class about extends Component {
                     </p>
 
                     <img
-                        src="https://www.dropbox.com/s/0jzbwodlzoxlcwd/doggos.png?dl=0"
+                        src="https://imagizer.imageshack.com/v2/320x240q90/921/FK0aJJ.png"
                         alt="doggos"
                         style = {{height: '250px'}}
                         />
