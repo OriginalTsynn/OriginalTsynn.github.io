@@ -21,8 +21,6 @@ export default class contact extends Component {
                         }}>
                             I'm an insatiably innately inquisitive full stack software engineer.
                             I turn challenges into opportunities that result in elegantly simple solutions.<br></br><br></br>
-                            In my free time, when not programming, I like to keep my senses sharp by passionately participating in gaming.  <br></br>
-                            When not programming or gaming, I spend a lot of time working with my wonderful dobies!
                         </p>
 
                     </Cell>
