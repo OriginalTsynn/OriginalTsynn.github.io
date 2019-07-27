@@ -7,7 +7,7 @@ export default class resume extends Component
         return (
             <div>
                 <h1> resume </h1>
-                <embed src="../assets/NathanRotach.pdf" />>
+                {/* <embed src="../assets/NathanRotach.pdf" />> */}
             </div>
         )
     }
