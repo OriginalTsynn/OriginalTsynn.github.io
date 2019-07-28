@@ -1,26 +1,27 @@
 {
-  "name": "modern_portfolio",
-  "version": "1.0.0",
-  "description": "Responsive portfolio website",
-  "main": "index.js",
-  "homepage": "https://bradtraversy.github.io/modern_portfolio",
-  "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    "deploy": "gh-pages -d dist"
-  },
-  "author": "Brad Traversy",
-  "license": "MIT",
-  "dependencies": {
-    "gh-pages": "^1.2.0",
-    "node-sass": "^4.9.2",
-    "react-scripts": "^3.0.1"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bradtraversy/modern_portfolio.git"
-  },
-  "bugs": {
-    "url": "https://github.com/bradtraversy/modern_portfolio/issues"
-  }
+	"name": "modern_portfolio",
+	"version": "1.0.0",
+	"description": "Responsive portfolio website",
+	"main": "index.js",
+	"homepage": "https://bradtraversy.github.io/modern_portfolio",
+	"scripts": {
+		"sass": "node-sass -w scss/ -o dist/css/ --recursive",
+		"deploy": "npm run build && mv build/index.html build/200.html && surge build your-custom-domain"
+	},
+	"author": "Brad Traversy",
+	"license": "MIT",
+	"dependencies": {
+		"gh-pages": "^1.2.0",
+		"node-sass": "^4.9.2",
+		"react-pdf": "^4.1.0",
+		"react-scripts": "^3.0.1"
+	},
+	"devDependencies": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/bradtraversy/modern_portfolio.git"
+	},
+	"bugs": {
+		"url": "https://github.com/bradtraversy/modern_portfolio/issues"
+	}
 }
