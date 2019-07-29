@@ -21,19 +21,21 @@ export default class Resume extends Component
         return (
             <div>
                 {/* <iframe title="resume" src="../assets/NathanRotach.pdf" /> */}
-                <embed type="application/pdf"
-                    src="https://github.com/OriginalTsynn/OriginalTsynn.github.io/blob/master/portfolio/src/assets/NathanRotach.pdf"
+                {/* <embed type="application/pdf"
+                    src="../assets//NathanRotach.pdf"
                     width="600"
                     height="800"
-                />
+                /> */}
 
 
-                {/* <iframe id="inlineFrameExample"
+                <iframe id="inlineFrameExample"
                     title="Inline Frame Example"
                     width="100%"
-                    height="100%"
-                    src="../assets/NathanRotach.pdf">
-                </iframe> */}
+                    height="800"
+
+                    // srcDoc="https://github.com/OriginalTsynn/OriginalTsynn.github.io/blob/master/portfolio/src/assets/NathanRotach.pdf"
+                    src="../assets/download.png">
+                </iframe>
 
             </div>
         );
